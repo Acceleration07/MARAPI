@@ -18,7 +18,7 @@ Get High Resolution Movie, and TV-Show Posters!
 
 Install Dependencies
 ```bash
-  sudo apt install python3 python3-pip && pip install Flare
+  sudo apt install python3 python3-pip && pip install Flask
 ```
 
 Navigate to where you want the project folder to be
