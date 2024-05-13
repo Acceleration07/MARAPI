@@ -69,3 +69,8 @@ http://localhost:5000/marapi/tt1375666/p900
 ```
 this would give me the poster for inception with the vertical height of 900px
 
+```bash
+http://localhost:5000/marapi/tt1375666
+```
+this would give me the poster for inception with the max vertical height
+
