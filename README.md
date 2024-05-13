@@ -18,31 +18,31 @@ Get High Resolution Movie, and TV-Show Posters!
 
 Install Dependencies
 ```bash
-  sudo apt install python3 python3-pip && pip install Flask && pip install requests
+sudo apt install python3 python3-pip && pip install Flask && pip install requests
 ```
 
 Navigate to where you want the project folder to be
 ```bash
-  cd {project-folder}
+cd {project-folder}
 ```
 
 Clone The Repository
 ```bash
-  git clone https://github.com/Acceleration07/MARAPI.git
+git clone https://github.com/Acceleration07/MARAPI.git
 ```
 
 Navigate to your Project folder
 ```bash
-  cd MARAPI
+cd MARAPI
 ```
 
 Change File Permissions *Not Neccesary Sometimes*
 ```bash
-  sudo chmod 777 *
+sudo chmod 777 *
 ```
 
 
 Start the Webserver
 ```bash
-  set FLASK_APP=app.py && python3 -m flask run --host=localhost --port=5000
+set FLASK_APP=app.py && python3 -m flask run --host=localhost --port=5000
 ```
