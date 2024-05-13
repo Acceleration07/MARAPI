@@ -18,7 +18,7 @@ Get High Resolution Movie, and TV-Show Posters!
 
 Install Dependencies
 ```bash
-  sudo apt install python3 python3-pip && pip install Flask
+  sudo apt install python3 python3-pip && pip install Flask && pip install requests
 ```
 
 Navigate to where you want the project folder to be
@@ -38,5 +38,5 @@ Navigate to your Project folder
 
 Start the Webserver
 ```bash
-  set FLASK_APP=app.py && flask run --host=192.168.1.103 --port=5000
+  set FLASK_APP=app.py && flask run --host=localhost --port=5000
 ```
