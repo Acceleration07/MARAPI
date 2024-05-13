@@ -36,7 +36,13 @@ Navigate to your Project folder
   cd MARAPI
 ```
 
+Change File Permissions *Not Neccesary Sometimes*
+```bash
+  sudo chmod 777 *
+```
+
+
 Start the Webserver
 ```bash
-  set FLASK_APP=app.py && flask run --host=localhost --port=5000
+  set FLASK_APP=app.py && python3 -m flask run --host=localhost --port=5000
 ```
