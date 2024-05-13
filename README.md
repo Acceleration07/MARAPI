@@ -44,6 +44,8 @@ Start the API
 set FLASK_APP=app.py && python3 -m flask run --host=localhost --port=5000
 ```
 
+*To Stop the API Simply Click "CRTL + C" in the terminal you started the API in*
+
 ## Usage
 
 For the sake of example we will be using the movie "[Inception](https://www.imdb.com/title/tt1375666/)"
