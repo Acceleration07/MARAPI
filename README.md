@@ -60,6 +60,7 @@ IMDb Codes come from the links of the imdb movie or tv-show profile.
 
 EXAMPLE:
 Link: https://www.imdb.com/title/tt1375666/
+
 Code: tt1375666
 
 EXAMPLE
