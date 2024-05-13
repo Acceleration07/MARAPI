@@ -15,7 +15,6 @@ Get High Resolution Movie, and TV-Show Posters!
 
 ## Installation
 
-
 Install Dependencies
 ```bash
 sudo apt install python3 python3-pip && pip install Flask && pip install requests
@@ -42,7 +41,30 @@ sudo chmod 777 *
 ```
 
 
-Start the Webserver
+Start the API
 ```bash
 set FLASK_APP=app.py && python3 -m flask run --host=localhost --port=5000
 ```
+
+## Usage
+
+For the sake of example we will be using the movie "[Inception](https://www.imdb.com/title/tt1375666/)"
+
+After starting the API, you can start to load posters by going to this link
+
+http://localhost:5000/marapi/{imdb-code}/p{Pixel-Height}
+
+*the pixel height isn't neccasary, if it's not used it will default to the max resolution Poster found*
+
+IMDb Codes come from the links of the imdb movie or tv-show profile.
+
+EXAMPLE:
+Link: https://www.imdb.com/title/tt1375666/
+Code: tt1375666
+
+EXAMPLE
+```bash
+http://localhost:5000/marapi/tt1375666/p900
+```
+this would give me the poster for inception with the vertical height of 900px
+
