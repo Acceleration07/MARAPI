@@ -74,3 +74,8 @@ http://localhost:5000/marapi/tt1375666
 ```
 this would give me the poster for inception with the max vertical height
 
+
+Downloading Image from Command Line
+```bash
+wget -q --show-progress "{MARAPI URL}" -O poster.jpg
+```
