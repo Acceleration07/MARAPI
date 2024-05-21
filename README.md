@@ -15,7 +15,7 @@ Movie Artwork Retrieval API
 
 One Liner
 ```bash
-sudo apt install python3 python3-pip git && pip install Flask requests && git clone https://github.com/Acceleration07/MARAPI.git && cd MARAPI && sudo chmod 777 * && echo "set FLASK_APP=app.py && python3 -m flask run --host=localhost --port=5000"s
+sudo apt install python3 python3-pip git && pip install Flask requests && git clone https://github.com/Acceleration07/MARAPI.git && cd MARAPI && sudo chmod 777 * && echo "Use this command to start up the api" && echo "set FLASK_APP=app.py && python3 -m flask run --host=localhost --port=5000"
 ```
 
 Install Dependencies
