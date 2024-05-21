@@ -15,7 +15,7 @@ Movie Artwork Retrieval API
 
 Install Dependencies
 ```bash
-sudo apt install python3 python3-pip && pip install Flask requests
+sudo apt install python3 python3-pip git && pip install Flask requests
 ```
 
 Navigate to where you want the project folder to be
